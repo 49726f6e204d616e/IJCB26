@@ -23,14 +23,14 @@ Attacks on computer vision systems and algorithms are too often relegated to the
 
 ## 🖼️ Visual Analysis
 ### Time-Domain vs Frequency-Domain Impact
-Below is the FFT analysis of a clean sample versus a physically attacked sample. Notice the distinct spectral spikes in the mid-frequency range.
+Below is a single identity shown without perturbations, modeled attack, and physical attack. Notice the distinct vertical lines in the attacked images, caused by the attack.
 
 <p align="center">
-  <img src="assets/02463d566_clean.png" width="600">
-  <img src="assets/02463d566_attack_digital.png" width="600">
-  <img src="assets/02463d566_attack.png" width="600">
+  <img src="media/02463d566_clean.png" width="300">
+  <img src="media/02463d566_attack_digital.png" width="300">
+  <img src="media/02463d566_attack.png" width="300">
   <br>
-  <i>(a) Clean FFT, (b) Physical Attack FFT, (c) Modeled Attack FFT</i>
+  <i>(a) Clean Image, (b) Modeled Attack, (c) Physical Attack FFT</i>
 </p>
 
 ---
