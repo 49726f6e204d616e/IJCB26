@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/attack_samples.png" width="800" alt="RF Attack Overview">
+  <img src="assets/.png" width="800" alt="RF Attack Overview">
   <h1 align="center">Spectral Vulnerability: Physical RF Attacks on Face Recognition backbones</h1>
 </p>
 
@@ -13,7 +13,7 @@
 ---
 
 ## 📌 Abstract
-This repository contains the official implementation for our IJCB 2026 submission. We investigate the impact of near-field Magnetic (H) perturbations on facial recognition models. Specifically, we demonstrate how high-frequency oscillations (11.65 MHz) injected via loop antennas introduce spectral artifacts that disproportionately affect lightweight architectures like **GhostFaceNet** compared to high-capacity models like **Buffalo_L (ResNet-50)**.
+Attacks on computer vision systems and algorithms are too often relegated to the digital domain. Their optimization performed purely in the digital world and translated to physical mediums for implementation. In the field of biometrics, including facial recognition (FR), physical attacks targeting biometric sensors present significant opportunity and risk. This paper highlights a critical vulnerability in the physical-to-digital pipeline of biometric sensors and provides a standardized metric-based approach for testing facial recognition system robustness against hardware attacks, going beyond well-known presentation attacks (as defined in ISO/IEC 30107), focused on intentional electromagnetic interference and possible to be conducted with commonly accessible radio frequency (RF) equipment. Additionally, we propose (and offer the source codes of) a technique modeling the electromagnetic-induced interferences, which can be used as one of the data augmentation techniques for training face recognition models offering higher robustness against radio frequency hardware attacks. The authors obtained the permission of the original dataset owners to share the re-captured clean and under-attack face videos along with this paper to serve as the RF test benchmark.
 
 ## 🧪 Key Findings
 | Model | Params | Susceptibility | Primary Vulnerability |
@@ -26,7 +26,9 @@ This repository contains the official implementation for our IJCB 2026 submissio
 Below is the FFT analysis of a clean sample versus a physically attacked sample. Notice the distinct spectral spikes in the mid-frequency range.
 
 <p align="center">
-  <img src="assets/fft_analysis.png" width="600">
+  <img src="assets/02463d566_clean.png" width="600">
+  <img src="assets/02463d566_attack_digital.png" width="600">
+  <img src="assets/02463d566_attack.png" width="600">
   <br>
   <i>(a) Clean FFT, (b) Physical Attack FFT, (c) Modeled Attack FFT</i>
 </p>
