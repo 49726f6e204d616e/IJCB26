@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/.png" width="800" alt="RF Attack Overview">
+  <img src="media/HardwareSetup.png" width="500" alt="RF Attack Overview">
   <h1 align="center">Spectral Vulnerability: Physical RF Attacks on Face Recognition backbones</h1>
 </p>
 
@@ -18,8 +18,8 @@ Attacks on computer vision systems and algorithms are too often relegated to the
 ## 🧪 Key Findings
 | Model | Params | Susceptibility | Primary Vulnerability |
 | :--- | :--- | :--- | :--- |
-| **Buffalo_L** | 25.5M | **Low** | High capacity learns redundant robust features. |
-| **GhostFaceNet** | 5.2M | **High** | DFC Attention and "Ghost" modules propagate noise. |
+| ** ** |   | **Low** |   |
+| ** ** |   | **High** |   |
 
 ## 🖼️ Visual Analysis
 ### Time-Domain vs Frequency-Domain Impact
