@@ -1,6 +1,6 @@
 <p align="center">
   <img src="media/HardwareSetup.png" width="500" alt="RF Attack Overview">
-  <h1 align="center">Spectral Vulnerability: Physical RF Attacks on Face Recognition backbones</h1>
+  <h1 align="center">Intentional Electromagnetic Interference Attacks on Facial Recognition</h1>
 </p>
 
 <p align="center">
