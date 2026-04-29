@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/badge/Conference-IJCB%202026%20Submission-blue">
   <img src="https://img.shields.io/badge/Python-3.9+-green">
   <img src="https://img.shields.io/badge/Hardware-Signal%20Generator-orange">
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey">
 </p>
 
 ---
@@ -17,8 +16,6 @@ Attacks on general computer vision algorithms are often relegated to the digital
 
 ## 📀 Dataset
 The dataset will be released if the paper is accepted. 
-
-## 🧪 Key Findings
 
 
 ## 🖼️ Visual Analysis
