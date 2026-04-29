@@ -44,10 +44,6 @@ There are only two scripts necessary for the IEMI Modeling.
 - RF_Optimization.py: Runs a grid search over provided parameters to determine theoretically optimal RF settings per model (models built in same as IJCB paper).
 - RF_effect_modeling: Using the outputs from RF_Optimization.py, the script overlays the desired RF parameters (frequency, amplitude, bar angle, AM effect, FM effect) onto a directory of images. 
 
-### 2. Installation
-```bash
-git clone [https://github.com/YourAnonUser/Project.git](https://github.com/YourAnonUser/Project.git)
-cd Project
-pip install -r requirements.txt
+
 
 
