@@ -13,16 +13,13 @@
 ---
 
 ## 📌 Abstract
-Attacks on computer vision systems and algorithms are too often relegated to the digital domain. Their optimization performed purely in the digital world and translated to physical mediums for implementation. In the field of biometrics, including facial recognition (FR), physical attacks targeting biometric sensors present significant opportunity and risk. This paper highlights a critical vulnerability in the physical-to-digital pipeline of biometric sensors and provides a standardized metric-based approach for testing facial recognition system robustness against hardware attacks, going beyond well-known presentation attacks (as defined in ISO/IEC 30107), focused on intentional electromagnetic interference and possible to be conducted with commonly accessible radio frequency (RF) equipment. Additionally, we propose (and offer the source codes of) a technique modeling the electromagnetic-induced interferences, which can be used as one of the data augmentation techniques for training face recognition models offering higher robustness against radio frequency hardware attacks. The authors obtained the permission of the original dataset owners to share the re-captured clean and under-attack face videos along with this paper to serve as the RF test benchmark.
+Attacks on general computer vision algorithms are often relegated to the digital domain, with the optimization performed purely in the digital world and then translated to physical mediums for implementation. In the field of biometrics, including facial recognition, physical presentation attacks targeting biometric sensors are dominant and present significant opportunity and risk. This paper highlights a critical vulnerability in the physical-to-digital pipeline of biometric sensors and provides a standardized approach for testing facial recognition system robustness against hardware attacks, going beyond and potentially complementing presentation attacks (as defined in ISO/IEC 30107 standard series). Specifically, in this work we (a) demonstrate that intentional electromagnetic interference is possible to be conducted with commonly accessible radio frequency (RF) equipment, (b) assess the robustness of state-of-the-art face recognition methods against RF-based attacks, and (c) provide a dataset composed of face images captured with and without electromagnetic interference to serve as a new benchmark for testing modern face matchers against RF-sourced interference.
 
 ## 📀 Dataset
 The dataset will be released if the paper is accepted. 
 
 ## 🧪 Key Findings
-| Model | Params | Susceptibility | Primary Vulnerability |
-| :--- | :--- | :--- | :--- |
-| ** ** |   | **Low** |   |
-| ** ** |   | **High** |   |
+
 
 ## 🖼️ Visual Analysis
 ### Time-Domain vs Frequency-Domain Impact
